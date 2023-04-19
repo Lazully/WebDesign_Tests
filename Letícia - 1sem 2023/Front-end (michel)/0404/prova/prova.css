@@ -1,0 +1,13 @@
+/*
+Cor da fonte Amarela · Espessura da fonte: 900 · Estilo Itálico · Tipo de fonte Arial · Cor de fundo verde 
+Para a regra acima você deverá criá-la utilizando as duas formas vistas em aula: a. Método externo b. Método interno. 
+*/
+
+p{
+    /*Modo externo*/
+    color: yellow;
+    font-weight: 900;
+    font-style: italic;
+    font-family: arial;
+    background-color: green; 
+}
