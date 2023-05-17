@@ -1,0 +1,35 @@
+.form-inline{
+    position: relative;
+    right: 200px;
+}
+
+.botao{
+    position: relative;
+    right: 300px;
+}
+
+nav {
+    list-style-type: none;
+    background: #F2EBDC ;
+    overflow:hidden;
+    align-items: center;
+    }
+
+    li{
+        float: left;
+        }
+        #menu {
+            
+            padding: 10px 17px 10px 17px;
+            text-decoration: none;
+            display: block;
+            color:#F27457;
+            font-size:25px;
+            text-align: center;            
+        }
+        
+        #menu:hover
+        {
+            background: hsl(203, 25%, 36%);
+        }
+    

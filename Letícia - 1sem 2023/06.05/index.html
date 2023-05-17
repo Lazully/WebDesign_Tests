@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang = "pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width. initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            var data = new Date();
+            var ano = data.getFullYear();
+            
+            var nome = prompt('Digite seu nome: ');
+            var anoNascimento = prompt('Digite o ano que você nasceu: ');
+            
+            var idade = ano - anoNascimento;
+            document.body.innerHTML += "<h2>Nome: " + nome + "</h2>";
+            document.body.innerHTML += "<h2>Idade: " + idade + "</h2>";
+            document.body.innerHTML += "<h2>Hora certa: " + data.getHours(2) + ":" + data.getMinutes(2) + ":" + data.getSeconds(2) + "</h2>";
+            
+        </script>
+    </body>
+</html>

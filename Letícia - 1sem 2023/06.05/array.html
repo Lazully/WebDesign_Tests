@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang = "pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width. initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            var flores = ["Rosas", " Violetas", " Crisântemos", " Hortências", " Cravos", " Margaridas", " Lótus", " Amor-perfeito", " Flor-de-Maio", " Girassol", " Tulipa"];
+
+            flores.forEach(function(value, key){
+                console.log(value, key);
+            });
+
+            flores.push(" Cosmos");
+            alert(flores);
+
+            flores.shift();
+            alert(flores);
+
+            flores.splice(5, 2);
+            alert(flores);
+        </script>
+    </body>
+</html>
